@@ -3,7 +3,7 @@ function Dashboard() {
 
   useEffect(() => {
     //link do banco de dados
-    fetch('')
+    fetch('../data/sampleData')
       .then(res => res.json())
       .then(json => setData(json.slice(0, 4))) // garante 4 gráficos
       .catch(err => console.error(err));
