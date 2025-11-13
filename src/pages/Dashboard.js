@@ -1,10 +1,13 @@
-import sampleData from '../data/sampleData';
+// src/pages/Dashboard.js
+import React, { useState, useEffect } from 'react';
+import ChartCard from '../components/ChartCard';
+import { sampleData } from '../data/sampleData';
 
 function Dashboard() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    setData(sampleData.slice(0, 4));
+    setData(sampleData.slice(0, 4)); // exibe 4 gráficos, por exemplo
   }, []);
 
   return (
@@ -15,3 +18,5 @@ function Dashboard() {
     </div>
   );
 }
+
+export default Dashboard;
