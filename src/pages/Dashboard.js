@@ -1,4 +1,3 @@
-// src/pages/Dashboard.js
 import React, { useState, useEffect } from 'react';
 import ChartCard from '../components/ChartCard';
 import { sampleData } from '../data/sampleData';
