@@ -1,6 +1,6 @@
 # Dependências
 node_modules/
-src/data
+src/data/sampleData.js
 
 # Build
 build/
