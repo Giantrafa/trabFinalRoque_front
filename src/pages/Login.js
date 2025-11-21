@@ -1,6 +1,3 @@
-// TODO: Aqui é onde o frontend deve chamar a API do backend
-// para verificar login e receber token/autenticação
-
 import { useState } from "react";
 import "../styles.css";
 
