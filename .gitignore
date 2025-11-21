@@ -27,6 +27,4 @@ coverage/
 Thumbs.db
 
 # Ignorar arquivos específicos
-src/data/sampleData.js
-src/pages/Login.js
-src/components/ChartCard.js
+
